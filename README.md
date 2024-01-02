@@ -1,8 +1,31 @@
-# shell_llm
+# Shell Assistant
 
-# Objectives
-## 1. <del> Starcoder 1B llm with ollama (Integrate memgpt If possible)
-## Using Mistral 7b standard(non-instruct)
-## 2. vectorstore chromadb for knowledge base(bash)
-## 3. Summarizer and fuzzy search (optional/If needed)
-## 4. Integration with bash
+## Intro
+
+**This projects intend to simplify the use of various shell commands with the help of a LLM. The LLM being the mistral 7b model to reduce the peril of using the Linux shell/command line**
+
+# Prerequisites
+
+1. **Install Ollama from [here](https://ollama.ai/)**
+2. **Then install the mistral model using** 
+```
+ollama run mistral
+```
+# Installation
+
+1. **Clone the copy paste this in your terminal with:**
+```
+git clone https://github.com/Yash-200/shell_llm.git
+cd shell_llm/
+source bin/activate.fish
+pip install langchain
+cd src
+```
+2. **Run project with**
+```
+python3 main.py
+```
+
+# Extras
+
+1. **You use model of you choice just change the model name in ==main.py ==file**
