@@ -7,20 +7,22 @@
 # Prerequisites
 
 1. **Install Ollama from [here](https://ollama.ai/)**
+
 2. **Then install the mistral model using** 
 ```
-ollama run mistral
+ollama pull mistral
 ```
+
+3. Install conda from [here](https://www.anaconda.com/download/)
 # Installation
 
-1. **Clone the copy paste this in your terminal with:**
+1. **Copy and paste this in your terminal :**
 ```
 git clone https://github.com/Yash-200/shell_llm.git
-cd shell_llm/
-source bin/activate.fish
-pip install langchain
-cd src
+cd shell_llm/src
+conda env create --file env.yml
 ```
+
 2. **Run project with**
 ```
 python3 main.py
@@ -28,4 +30,4 @@ python3 main.py
 
 # Extras
 
-1. **You use model of you choice just change the model name in ==main.py ==file**
+1. **You use model of you choice just change the model name in ==main.py== file**
