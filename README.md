@@ -1,4 +1,4 @@
-# Shell Assistant
+# Shell Assistant - Genesis
 
 ## Intro
 
